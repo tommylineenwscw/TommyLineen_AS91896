@@ -28,7 +28,7 @@ def room3():
         print("You try to sneak past the dragon, but it wakes up and breathes fire at you!")
         lose_life()
         if lives <= 0:
-            print("Game Over! You have no lives left.")
+            print("Game Over! You have no lives left")
             return
         else:
             room3()
