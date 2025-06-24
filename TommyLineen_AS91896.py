@@ -17,12 +17,23 @@ def lose_life():
     else:
         print("Game Over! No lives left.")
 
+
+def room4(): 
+    global lives 
+    print("You enter a room with 2 small chests in the center.\n") 
+    print("there are also 2 doors infront of you, behind these chests.\n") 
+    input("what do you want to do?").strip().lower() 
+    while True: 
+        options = ["open left chest", "open right chest", "go back", "inventory"] 
+    
+
+
 def room3():
     global lives
-    print("The door locks behind you as you enter the room.")
-    print("You enter a room with an extremely large dragon asleep in the center, and it is blocking the only exit.")
-    print("There is a door to the west, but the dragon is in the way.")
-    print("There is also a door you came from to the east (back to the treasure room).")  
+    print("You enter a room with an extremely large dragon asleep in the center, and it is blocking the only exit.\n")
+    print("There is a door to the west, but the dragon is in the way.\n")
+    print("There is also a door you came from to the east (back to the treasure room).\n")
+
       
     while True:
         print("\nOptions: sneak, throw coin, go back, inventory")
