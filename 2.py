@@ -19,7 +19,6 @@ def lose_life():
 
 def room3():
     global lives
-    print("The door locks behind you as you enter the room.")
     print("You enter a room with an extremely large dragon asleep in the center, and it is blocking the only exit.")
     print("There is a door to the west, but the dragon is in the way.")
     print("There is also a door you came from to the east (back to the treasure room).")  
@@ -52,9 +51,9 @@ def room3():
     if choice == "inventory":
         print_inventory() # Show inventory
      
-        else:
-            room3()
     else:
+        room3()
+  
        
         room1()  # Go back to room 1
 def room2():
